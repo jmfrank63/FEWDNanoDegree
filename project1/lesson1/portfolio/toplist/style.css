@@ -1,17 +1,30 @@
-* {
-    /*outline: 1px solid red !important;*/
+body {
+    margin: 0;
+}
+
+#content {
+    max-width: 948px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    background-color: #f8981c;
+    color: white;
+    padding: 20px;
+    font-family: Helvetica, Arial;
+    font-size: 48px;
+    margin: 0;
+}
+.app {
     display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
 }
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.screenshot {
+.screenshot > img{
     max-width: 640px;
+    border: dotted black 6px;
+    margin-left: 20px;
 }
     
 .description {
