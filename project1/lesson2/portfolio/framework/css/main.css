@@ -1,0 +1,228 @@
+/** {*/
+/*    border: 1px solid red !important;*/
+/*}*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:0;
+}
+
+body {
+    padding-left: 20px;
+    padding-right:20px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+#logo img {
+    max-width:100%;
+    max-height:6em;
+    margin: auto;
+}
+
+.headline {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-align:right;
+    margin:auto;
+}
+
+h1 {
+    font-size:3em;
+}
+
+h2 {
+    font-size:1.1em;
+}
+
+.crop-center-img {
+    max-width:100%;
+    max-height:400px;
+    overflow:hidden;
+}
+
+.crop-center-img img {
+    zoom: 6;
+
+    display: block;
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
+    
+    overflow:hidden;
+}
+
+#featured h2 {
+    text-align: left;
+    font-size:2em;
+    margin:0;
+    margin-left:1em;
+}
+.nav-container {
+    display:inline;
+
+}
+
+.nav-element {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-align:center;
+    margin:auto;
+}
+
+.nav-element h3 {
+    margin-top:10px;
+    font-size:2em;
+}
+
+.nav-element p {
+    font-size:1em;
+}
+.crop-link-img {
+    max-width:100%;
+    max-height:200px;
+    overflow:hidden;
+}
+.crop-link-img img {
+    zoom: 4;
+    
+    display: block;
+    margin:auto;
+    padding-left:3px;
+    padding-right:3px;
+
+    height: auto;
+    max-height: 100%;
+    min-height:100%;
+    
+    width: auto;
+    max-width: 100%;
+    
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row hr {
+    background:#bcbbbb;
+    min-width:100%;
+    height:0.25em;
+
+}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
