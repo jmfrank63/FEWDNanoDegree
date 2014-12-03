@@ -1,0 +1,6 @@
+[submodule "version_control/Spoon-Knife"]
+	path = version_control/Spoon-Knife
+	url = git@github.com:jmfrank63/Spoon-Knife.git
+[submodule "version_control/frontend-nanodegree-resume"]
+	path = version_control/frontend-nanodegree-resume
+	url = git@github.com:jmfrank63/frontend-nanodegree-resume.git

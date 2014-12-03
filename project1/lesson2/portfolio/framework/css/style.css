@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #131a2d;
+    font-weight: 400;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-thick {
+    color: #131a2d;
+    font-weight: 900;
+}
+
+.text-muted {
+    color: D0C4AB;
+}
+
+.dark-background {
+    background-color: #131a2d;
+}
+
+.bright-background {
+    background-color: white;
+}
+
+.title-logo {
+    margin: 0;
+    margin-top: 2em;
+}
+
+.image-button {
+    padding: 0;
+    border: 0;
+}
