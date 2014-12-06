@@ -13,14 +13,24 @@ var moonWalkers = [
   "Harrison Schmitt"
 ];
 
+/**
+* alphabetizer takes a list of "firstname name" and returns 
+* a copy of "name, firstname" in alphabetical order
+*/
+
 function alphabetizer(names) {
-    // Your code goes here!
+    // variable definitions
+    var _names = [];
+    var _name;
     
-    for (i=0; i < names.length; i++) {
-        var name = names[i].split(" ");
-        names[i] = name[1] + ", " + name[0];
+    // loop over names split each element and add swaped
+    // content with comma and space to new array.
+    for (var i = 0; i < names.length; i++) {
+        _name = names[i].split(" ");
+        _names[i] = _name[1] + ", " + _name[0];
     }
-    return names.sort();
+    // return sorted array
+    return _names.sort();
 }
 
 // Try logging your results to test your code!
