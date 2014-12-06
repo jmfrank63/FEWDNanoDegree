@@ -4,3 +4,6 @@
 [submodule "version_control/frontend-nanodegree-resume"]
 	path = version_control/frontend-nanodegree-resume
 	url = git@github.com:jmfrank63/frontend-nanodegree-resume.git
+[submodule "project2/frontend-nanodegree-resume"]
+	path = project2/frontend-nanodegree-resume
+	url = git@github.com:jmfrank63/frontend-nanodegree-resume.git
