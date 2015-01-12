@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js">
+  </script>
+</head>
+<body>
+  <canvas id="cnv" width="500" height="500"></canvas>
+  <script>
+    var cnv = document.getElementById("cnv");
+    var ctx = cnv.getContext("2d");
+    ctx.fillRect(100, 100, 100, 100);
+    ctx.strokeRect(50, 50, 50, 50);
+    
+    ctx.beginPath();
+    ctx.moveTo(10,10);
+    ctx.lineTo(50,50);
+    ctx.lineTo(50,10);
+    ctx.lineTo(10,10);
+    //ctx.fill();
+    ctx.stroke();
+    
+  </script>
+</body>
+</html>

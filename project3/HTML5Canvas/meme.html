@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js">
+  </script>
+</head>
+<body>
+  <canvas id="cnv" width="500" height="500"></canvas>
+  <script>
+    var cnv = document.getElementById("cnv");
+    var ctx = cnv.getContext("2d");
+    var image = new Image();
+    image.onload = function() {
+      console.log("Image loaded");
+      ctx.drawImage(image, 0, 0, cnv.width, cnv.height);
+      ctx.fillStyle = "white";
+      ctx.font = "36px Impact";
+      ctx.fillText("CANVAS MEMES!", 136, 39);
+      ctx.fillStyle = "black";
+      ctx.lineWidth = 3;
+      ctx.strokeText("CANVAS MEMES!", 136, 39);
+      // var savedImage = cnv.toDataURL();
+      // window.open(savedImage);
+    };
+    image.src = "water.png";
+    image.crossOrigin = "Anonymous";
+
+  </script>
+</body>
+</html>

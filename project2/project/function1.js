@@ -84,4 +84,4 @@ console.log(getRelationship(NaN));
 console.log(getRelationship(NaN, undefined));
 console.log(getRelationship(4,1)); // added by student
 console.log(getRelationship(4,4.0)); // added by student
-console.log(getRelationship(2.5,2.5)); // added by student
+console.log(getRelationship(2.5,2.5)); // added by student
